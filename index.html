@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MystiCode By MAR </title>
+    <link rel="stylesheet" type="text/css" href="styles2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MystiCode</h1>
+        <p>Encrypt or decrypt your text</p>
+        <div class="input">
+            <textarea id="input" class="text_area" placeholder="write your text here"></textarea>
+        
+        </div>
+        <div class="buttons">
+            <button onclick="btnEncrypt()">Encrypt</button>
+            <button onclick="btnDecrypt()">Decrypt</button>
+        </div>
+        <div class="output">
+            <textarea readonly id="output" class="mensaje" placeholder="Decrypted text here."></textarea>
+            <div class="icons">
+                <button class="icon copy" onclick="copyText()">Copy &#128203;</button>
+                <button class="icon clear" onclick="clearText()">Clear &#128465;</button>
+            </div>
+        
+        </div>
+    </div>
+
+    
+    <script src="app.js"></script>
+    
+</body>
+<footer> 
+    <p>&copy; 2024 desarollado por Mayory  Astacio 🐚🐚</p>
+</footer>
+</html>
