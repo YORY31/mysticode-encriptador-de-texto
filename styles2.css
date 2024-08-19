@@ -20,8 +20,8 @@ body::before {
     height: 100%;
     background-image: url("IMG/Muñeco.png"), url("IMG/Muñeco.png");
     background-repeat: no-repeat;
-    background-position: left bottom, right bottom; /* Ajusta la posición para que se mantengan en el fondo */
-    background-size: auto 100%; /* Ajusta el tamaño de la imagen para que siempre ocupe el 100% del alto */
+    background-position: left bottom, right bottom; 
+    background-size: auto 100%; 
     opacity: 0.4;
     z-index: 0;
 }
@@ -140,11 +140,11 @@ footer p {
     background-color: #26363a;
 }
 
-/* Media Query para pantallas más pequeñas */
+
 @media (max-width: 768px) {
     body::before {
         background-position: left bottom, right bottom;
-        background-size: cover; /* La imagen cubre todo el fondo de la pantalla */
+        
     }
 
     .container {
@@ -168,7 +168,7 @@ footer p {
 @media (max-width: 480px) {
     body::before {
         background-position: center bottom;
-        background-size: cover; /* La imagen cubre todo el fondo de la pantalla */
+        background-size: cover; 
     }
 
     h1 {
